@@ -856,6 +856,35 @@
     bn.js "^5.2.1"
     decimal.js "^10.4.3"
 
+"@kamino-finance/klend-sdk@^7.3.13":
+  version "7.3.13"
+  resolved "https://registry.yarnpkg.com/@kamino-finance/klend-sdk/-/klend-sdk-7.3.13.tgz#2cf0d50ee8905f597a5c525f011ecf61912a9eff"
+  integrity sha512-RkA8rGm/wxXemf2zMzm0pUw4iXpq8OK8pUtdxyN6BlU62crXj1JQafzwVNGngLVrFGInKk/4C++lmn6zKBa/wQ==
+  dependencies:
+    "@coral-xyz/anchor" "^0.28.0"
+    "@coral-xyz/borsh" "^0.28.0"
+    "@kamino-finance/farms-sdk" "3.2.14"
+    "@kamino-finance/kliquidity-sdk" "^8.5.3"
+    "@kamino-finance/scope-sdk" "^10.1.0"
+    "@solana-program/address-lookup-table" "^0.8.0"
+    "@solana-program/system" "^0.8.0"
+    "@solana-program/token" "^0.6.0"
+    "@solana-program/token-2022" "^0.5.0"
+    "@solana/buffer-layout" "^4.0.1"
+    "@solana/compat" "^2.3.0"
+    "@solana/kit" "^2.3.0"
+    "@solana/spl-stake-pool" "^1.1.8"
+    "@solana/sysvars" "^2.3.0"
+    "@solana/web3.js" "^1.98.2"
+    axios "^1.6.8"
+    bn.js "^5.2.1"
+    buffer "^6.0.3"
+    commander "^9.3.0"
+    decimal.js "^10.4.3"
+    exponential-backoff "^3.1.1"
+    fzstd "^0.1.1"
+    zstddec "^0.1.0"
+
 "@kamino-finance/kliquidity-sdk@^8.4.0":
   version "8.4.5"
   resolved "https://registry.yarnpkg.com/@kamino-finance/kliquidity-sdk/-/kliquidity-sdk-8.4.5.tgz#d569fae5ffde843cde9c9c22aa9467b68b3dd3bc"
